@@ -8,6 +8,7 @@
             Console.WriteLine("Enter 1 for Stopwatch");
             Console.WriteLine("Enter 2 for ReverseNumber");
             Console.WriteLine("Enter 4 for PrimeNumbers");
+            Console.WriteLine("Enter 5 for CouponNumber");
 
             int Option = Convert.ToInt32(Console.ReadLine());
 
@@ -28,6 +29,10 @@
                     primenumber.primenumber();
                     break;
 
+                case 5:
+                    CouponNumber CoupoNum = new CouponNumber();
+                    CoupoNum.CoupoNum();
+                    break;
 
 
             }
