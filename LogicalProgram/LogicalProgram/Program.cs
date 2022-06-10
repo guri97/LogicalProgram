@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Enter a Number to Choose Respective Problem, \n");
             Console.WriteLine("Enter 1 for Stopwatch");
+            Console.WriteLine("Enter 2 for ReverseNumber");
 
             int Option = Convert.ToInt32(Console.ReadLine());
 
@@ -14,6 +15,11 @@
                 case 1:
                     Stopwatch stopwatch = new Stopwatch();
                     Stopwatch.Stopwatchprg();
+                    break;
+
+                case 2:
+                    ReverseNumber ReverseNum = new ReverseNumber();
+                    ReverseNumber.ReverseNum();
                     break;
 
             }
