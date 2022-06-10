@@ -9,6 +9,7 @@
             Console.WriteLine("Enter 2 for ReverseNumber");
             Console.WriteLine("Enter 4 for PrimeNumbers");
             Console.WriteLine("Enter 5 for CouponNumber");
+            Console.WriteLine("Enter 6 for FibonacciSeries");
 
             int Option = Convert.ToInt32(Console.ReadLine());
 
@@ -34,7 +35,10 @@
                     CoupoNum.CoupoNum();
                     break;
 
-
+                case 6:
+                    FibonacciSeries fibonacci = new FibonacciSeries();
+                    fibonacci.Fibonacci();
+                    break;
             }
         }
     }
